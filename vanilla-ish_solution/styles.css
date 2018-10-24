@@ -31,6 +31,7 @@ p, li{
 
 .book{
 	margin: 4%;
+	/* float: left; */
 }
 
 .book-thumbnail{

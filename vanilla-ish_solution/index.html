@@ -2,10 +2,11 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>title</title>
+        <title>Candidate Homeworks</title>
         <link href="https://fonts.googleapis.com/css?family=K2D|Raleway" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
         <link rel="stylesheet" type="text/css" href="styles.css">
     </head>
     <body class="amber lighten-5">
@@ -36,9 +37,12 @@
         </div>
 
         <div class="row teal lighten-4 books-container">
-            <div class="col s6 books">
-                <div class="col s12 book white ">
-                    <div class="col s3 book-thumbnail"><img src="https://images-na.ssl-images-amazon.com/images/I/51oQX1lEFAL._AC_US218_.jpg" alt="image A"></div>
+            <!-- <div class="col s12 books"> -->
+            <!-- <div class="container"> -->
+                <div class="col s5 book white">
+                    <div class="col s3 book-thumbnail">
+                        <img src="https://images-na.ssl-images-amazon.com/images/I/51oQX1lEFAL._AC_US218_.jpg" alt="image A">
+                    </div>
                     <div class="col s9 book-content white">
                         <ol>
                             <li><span class="book-label">Title</span>: {{ title }}</li>
@@ -46,17 +50,29 @@
                         </ol>
                     </div>
                 </div>
-                <div class="col s12 book white">
-                    <div class="col s3 book-thumbnail"><img src="https://images-na.ssl-images-amazon.com/images/I/51bXpL9GKBL._AC_US218_.jpg" alt="image B"></div>
-                        <div class="col s9 book-content white">
+                <div class="col s5 book white">
+                    <div class="col s3 book-thumbnail">
+                        <img src="https://images-na.ssl-images-amazon.com/images/I/51bXpL9GKBL._AC_US218_.jpg" alt="image B">
+                    </div>
+                    <div class="col s9 book-content white">
                             <ol>
                                 <li><span class="book-label">Title</span>: {{ title }}</li>
                                 <li><span class="book-label">Publication Date</span>: {{ date }}</li>
                             </ol>
-                        </div>
                     </div>
                 </div>
-            </div>
+                <div class="col s5 book white">
+                    <div class="col s3 book-thumbnail">
+                        <img src="https://images-na.ssl-images-amazon.com/images/I/51bXpL9GKBL._AC_US218_.jpg" alt="image B">
+                    </div>
+                    <div class="col s9 book-content white">
+                        <ol>
+                            <li><span class="book-label">Title</span>: {{ title }}</li>
+                            <li><span class="book-label">Publication Date</span>: {{ date }}</li>
+                        </ol>
+                    </div>
+                </div>
+            <!-- </div> -->
         </div>
     </body>
     <script src="app.js"></script>
