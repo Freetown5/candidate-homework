@@ -3,7 +3,7 @@
 Greetings, engineering hiring team at Inspire and thanks for taking the time to review my code challenge. In addition to what you requested in your instructions, I also decided to give this challenge a creative name, and add a wireframe to better showcase my thought process when it came to building this mini-app. I hope it's helpful for you when making your final decision for this position. Thanks again.
 
 ## Wireframe ##
-- This is for the desktop verion
+- This is for the desktop version
 ![desktop wireframe] (assets/wireframeA.jpg)
 
 - This is the mobile version
