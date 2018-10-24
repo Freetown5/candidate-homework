@@ -4,10 +4,10 @@ Greetings, engineering hiring team at Inspire and thanks for taking the time to 
 
 ## Wireframe ##
 - This is for the desktop version
-![desktop wireframe] (assets/wireframeA.jpg)
+![desktop wireframe](assets/wireframeA.jpg)
 
 - This is the mobile version
-![mobile wireframe] (assets/wireframeB.jpg)
+![mobile wireframe](assets/wireframeB.jpg)
 
 ## Build Instructions ##
 No build instructions here. Just open the index file in your browser. 
