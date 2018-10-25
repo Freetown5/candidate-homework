@@ -2,24 +2,24 @@
   <div id="app">
     <!-- Title -->
     <div class="row">
-      <div class="col s12 author"><h1>{{ books.data.author }}</h1></div>
+      <div class="col l12 author"><h1>{{ books.data.author }}</h1></div>
     </div>
 
     <!-- Backround info -->
     <div class="container">
       <div class="row brown lighten-4 author-info">
-        <div class="col s6"><h2><span class="author-labels">Birthday:</span> {{ books.data.birthday }}</h2></div>
-        <div class="col s6"><h2><span class="author-labels">Place of Birth:</span> {{ books.data.birthPlace }}</h2></div>
+        <div class="col l6"><h2><span class="author-labels">Birthday:</span> {{ books.data.birthday }}</h2></div>
+        <div class="col l6"><h2><span class="author-labels">Place of Birth:</span> {{ books.data.birthPlace }}</h2></div>
       </div>
     </div>
 
     <!-- Books -->
     <div class="row teal lighten-4 books-container">
-      <div v-for="item in books.data.books" :key="item.id" class="col s4 offset-s1 book white">
-        <div class="col s4 book-thumbnail">
+      <div v-for="item in books.data.books" :key="item.id" class="col l4 offset-l1 s12 book white">
+        <div class="col l4 s4 book-thumbnail">
           <img :src="item.imageUrl" alt="image A" />
         </div>
-        <div class="col s6 book-content white">
+        <div class="col l6 s8 book-content white">
           <ol>
             <li><span class="book-label">Title</span>: {{ item.title }}</li>
             <li>
